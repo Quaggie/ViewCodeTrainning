@@ -9,7 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-    private let screen = ViewControllerScreen()
+    let screen = ViewControllerScreen()
     
     override func loadView() {
         self.view = screen

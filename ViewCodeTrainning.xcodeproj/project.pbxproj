@@ -245,7 +245,6 @@
 				99D7ED7C2090935800295F3D /* Sources */,
 				99D7ED7D2090935800295F3D /* Frameworks */,
 				99D7ED7E2090935800295F3D /* Resources */,
-				99F7C195209096F10007D3D7 /* ShellScript */,
 				99F7C190209096DD0007D3D7 /* CopyFiles */,
 				173050CB4B4D225408545366 /* [CP] Embed Pods Frameworks */,
 			);
@@ -360,23 +359,6 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ViewCodeTrainningTests/Pods-ViewCodeTrainningTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
-		};
-		99F7C195209096F10007D3D7 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/FBSnapshotTestCase.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/Nimble_Snapshots.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/Quick.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/Nimble.framework",
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks";
 		};
 		E4C4360CF01A8A635EC41913 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
